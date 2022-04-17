@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(20,30,40);
+    height:100%;
+    width: 100%
+    overflow:hidden;
+    ;
+}
+div {
+    font-family: courier;
+    color: white;
+    font-weight: bold;
+}
+span {
+    position: absolute;
+    user-select:none;
+    z-index:-1; /*Wanda's note*/
+}
+.water {
+    pointer-events: none; /* css3 - makes the upper element 'invisible' to mouse-interaction (so fire elements below can be clicked) */
+}
+#GO {
+    text-align: center;
+    margin: 0 auto;
+    font-size:32px;
+    transform:translateY(50%);
+    background-color: rgba(20,30,40,0.6);
+}
